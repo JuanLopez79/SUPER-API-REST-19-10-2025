@@ -1,0 +1,121 @@
+
+
+
+project/
+
+1.
+│── alembic/
+│   ├── versions/
+│   ├── 🧩 env.py				*** 2_alembic.md ***
+│   ├── 🧩 README				*** 2_alembic.md ***
+│   └── 🧩 script.py.mako			*** 2_alembic.md ***
+
+2.
+│── app/
+│   ├── api/ 
+│   │   ├── v1/
+│   │   │   ├── dependencies/
+│   │   │   │   └── 🧩 common.py		*** 3_backend.md ***
+│   │   │   └── endpoints/
+│   │   │       ├── 🧩 post_router.py		*** 3_backend.md ***
+│   │   │       └── 🧩 user_router.py		*** 3_backend.md ***    
+│   │   └── 🧩 __init__.py           		*** --- ***
+
+3.
+│   ├── core/  
+│   │   ├── 🧩 config.py 			*** 1_init_project.md ***
+│   │   ├── 🧩 exceptions.py			*** --- ***
+│   │   ├── 🧩 logging_config.py		*** 1_init_project.md ***  
+│   │   └── 🧩 security.py			*** 3_backend.md ***
+
+4.
+│   ├── domain/
+│   │   └── models/
+│   │       ├── 🧩 post.py			*** 3_backend.md *** 
+│   │       └── 🧩 user.py			*** 3_backend.md ***
+
+5.
+│   ├── infrastructure/
+│   │   ├── db/
+│   │   │   ├── models/
+│   │   │   │   ├── 🧩 __init__.py		*** 3_backend.md ***
+│   │   │   │   ├── 🧩 post_model.py		*** 3_backend.md ***
+│   │   │   │   └── 🧩 user_model.py		*** 3_backend.md ***
+│   │   │   ├── repositories/
+│   │   │   │   ├── 🧩 post_repository_impl.py  *** 3_backend.md ***
+│   │   │   │   └── 🧩 user_repository_impl.py  *** 3_backend.md ***
+│   │   │   └── 🧩 db_session.py		*** 3_backend.md *** 
+│   │   └── services/
+│   │       ├── 🧩 cache_service.py		*** --- ***
+│   │       └── 🧩 email_service.py		*** --- ***
+
+6.
+│   ├── interfaces/
+│   │   └── repositories/
+│   │       ├── 🧩 post_repository.py		*** 3_backend.md ***
+│   │       └── 🧩 user_repository.py		*** 3_backend.md ***
+
+7.
+│   ├── schemas/
+│   │   ├── 🧩 post_schema_basic.py		*** 3_backend.md ***
+│   │   ├── 🧩 post_schema.py			*** 3_backend.md ***
+│   │   ├── 🧩 user_schema_basic.py		*** 3_backend.md ***
+│   │   └── 🧩 user_schema.py			*** 3_backend.md ***
+
+8.
+│   ├── tests/
+│   │   ├── 🧩 conftest.py			*** --- ***
+│   │   ├── 🧩 test_posts.py			*** --- ***
+│   │   └── 🧩 test_users.py			*** --- ***
+
+9.
+│   ├── use_cases/   
+│   │   ├── 🧩 post_service.py			*** 3_backend.md ***
+│   │   └── 🧩 user_service.py			*** 3_backend.md ***
+
+10.
+│   └── 🧩 main.py				*** 1_init_project.md *** *** 3_backend.md ***
+
+11.
+│── docs/
+│   ├── 🧩 1_init_project.md			*** 1_init_project.md ***
+│   ├── 🧩 2_alembic.md				*** 2_alembic.md ***
+│   ├── 🧩 3_backend.md				*** 3_backend.md ***
+
+12.
+│── 🧩 venv/					*** 1_init_project.md ***
+│── 🧩 .env					*** 1_init_project.md ***
+│── 🧩 .env.example				*** 1_init_project.md ***
+│── 🧩 .gitignore				*** 1_init_project.md ***
+│── 🧩 alembic.ini				*** 2_alembic.md ***
+│── 🧩 docker-compose.override.yml		*** 1_init_project.md ***
+│── 🧩 docker-compose.prod.yml			*** 1_init_project.md ***       
+│── 🧩 docker-compose.yml			*** 1_init_project.md ***    
+│── 🧩 Dockerfile				*** 1_init_project.md ***
+│── 🧩 README.md 				*** 1_init_project.md ***
+└── 🧩 requirements.txt 			*** 1_init_project.md ***
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

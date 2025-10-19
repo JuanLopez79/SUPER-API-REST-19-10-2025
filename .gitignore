@@ -1,0 +1,134 @@
+# ==================================================
+# ENTORNOS VIRTUALES
+# ==================================================
+venv/
+ve/
+.env
+# .env.*
+__pypackages__/
+
+# ==================================================
+# PYTHON: compilados, caché y metadatos
+# ==================================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+*.pyd
+*.pyt
+*.pyz
+*.pyc
+*.pdb
+
+# ==================================================
+# TESTING, COBERTURA Y TIPO
+# ==================================================
+.pytest_cache/
+.coverage
+.tox/
+.nox/
+mypy_cache/
+htmlcov/
+*.cover
+*.log
+nosetests.xml
+coverage.xml
+*.prof
+.prof
+*.tmp
+
+# ==================================================
+# DOCS
+# ==================================================
+_site/
+_build/
+docs/_build/
+docs/site/
+*.pdf
+*.html
+
+# ==================================================
+# DOCKER & BASES DE DATOS
+# ==================================================
+docker-compose.override.yml
+*.env.docker
+pg_data/
+*.sqlite3
+*.db
+*.sql
+*.bak
+*.dump
+*.tar
+*.tar.gz
+*.zip
+
+# ==================================================
+# IDEs Y EDITORES
+# ==================================================
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+*.code-workspace
+*.sw?
+
+# ==================================================
+# SISTEMA OPERATIVO
+# ==================================================
+.DS_Store
+Thumbs.db
+desktop.ini
+.Trashes
+*.stackdump
+ehthumbs.db
+
+# ==================================================
+# ARCHIVOS TEMPORALES / BACKUPS
+# ==================================================
+*.tmp
+*.temp
+*.bak
+*.orig
+*.old
+*.save
+*.swp
+*.swo
+*.~*
+
+# ==================================================
+# DISTRIBUCIÓN / BUILD / PACKAGE
+# ==================================================
+build/
+dist/
+*.egg-info/
+*.egg
+.eggs/
+pip-wheel-metadata/
+__pypackages__/
+*.whl
+
+# ==================================================
+# ARCHIVOS DE CONFIGURACIÓN LOCAL
+# ==================================================
+*.local
+*.cfg
+*.config
+.settings/
+
+# ==================================================
+# LOGS GENERALES
+# ==================================================
+*.log
+*.out
+*.err
+*.traceback
+
+# ==================================================
+# OTROS ARCHIVOS TEMPORALES
+# ==================================================
+*.lock
+*.pid
+*.seed
+*.coveragerc
+*.pot
+*.mo

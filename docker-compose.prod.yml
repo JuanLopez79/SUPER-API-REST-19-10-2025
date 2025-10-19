@@ -1,0 +1,13 @@
+# docker-compose.prod.yml
+
+services:
+  db:
+    ports:
+      - "5432:5432" # Solo si necesitas acceso remoto
+    restart: always
+
+  api:
+    ports:
+      - "8000:8000"
+    restart: always
+    command: uvicorn app.main:app --host 0.0.0.0 --port 8000 --workers 4
