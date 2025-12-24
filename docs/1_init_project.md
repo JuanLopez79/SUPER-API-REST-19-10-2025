@@ -62,6 +62,7 @@ project/
 │   ├── 1_init_project.md
 │   ├── 2_alembic.md
 │   ├── 3_backend.md
+│   └── github.md
 │── venv/
 │── .env
 │── .env.example
